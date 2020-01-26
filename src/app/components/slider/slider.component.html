@@ -1,0 +1,177 @@
+<!-- <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide>
+        <div class="carousel-container carousel-articles">
+            <div id="slide-features" class="swiper-container swiper-container-horizontal">
+                <div class="swiper-slide carousel-item single swiper-slide-duplicate" data-swiper-slide-index="2">
+                    <div class="content-wrapper">
+                        <div class="cover" style="background-image:url(../../../assets/images/slider/slide1.jpg)"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience</h2>
+                                <div class="meta">4 days ago - 6 comments</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="carousel-container carousel-articles">
+            <div id="slide-features" class="swiper-container swiper-container-horizontal">
+
+                <div class="swiper-slide carousel-item double swiper-slide-active" data-swiper-slide-index="7">
+                    <div class="content-wrapper">
+                        <div class="cover" style="background-image:url(../../../assets/images/slider/slide2.jpg)"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>Why You Should Watch: Master in the House</h2>
+                                <div class="meta">12 days ago - 30 comments</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="cover" style="background-image:url(../../../assets/images/slider/slide1.gif)"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>[Video] Top 15 Highest Rated Korean Dramas of 2019</h2>
+                                <div class="meta">13 days ago - 30 comments</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="carousel-container carousel-articles">
+            <div id="slide-features" class="swiper-container swiper-container-horizontal">
+                <div class="swiper-slide carousel-item single swiper-slide-duplicate" data-swiper-slide-index="2">
+                    <div class="content-wrapper">
+                        <div class="cover" style="background-image:url(../../../assets/images/slider/slide1.jpg)"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience</h2>
+                                <div class="meta">4 days ago - 6 comments</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </ng-template>
+</owl-carousel-o>
+<div>Some tags after</div> -->
+
+
+
+
+
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let item of itemData">
+        <div class="carousel-container carousel-articles">
+            <div id="slide-features" class="swiper-container swiper-container-horizontal">
+                <div class="swiper-slide carousel-item single swiper-slide-duplicate">
+
+                    <div class="content-wrapper">
+                        <div class="cover" [ngStyle]="{'background-image': 'url(' + item.image + ')'}"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>{{item.title}}</h2>
+                                <div class="meta">{{item.info}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </ng-template>
+
+    <!-- <ng-template carouselSlide>
+        <div class="carousel-container carousel-articles">
+            <div id="slide-features" class="swiper-container swiper-container-horizontal">
+
+                <div class="swiper-slide carousel-item double swiper-slide-active" data-swiper-slide-index="7">
+                    <div class="content-wrapper">
+                        <div class="cover" [ngStyle]="{'background-image': 'url(' + item.data.image[0] + ')'}"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>{{item.data.title[0]}}</h2>
+                                <div class="meta">{{item.data.info[0]}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="cover" [ngStyle]="{'background-image': 'url(' + item.data.image[1] + ')'}"></div>
+                        <div class="content">
+                            <a class="link" href="/"></a>
+                            <div class="content-inner">
+                                <h2>{{item.data.title[1]}}</h2>
+                                <div class="meta">{{item.data.info[1]}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </ng-template> -->
+</owl-carousel-o>
+
+
+
+
+
+<!-- <div class="carousel-container carousel-articles">
+    <div id="slide-features" class="swiper-container swiper-container-horizontal">
+        <div class="swiper-slide carousel-item single swiper-slide-duplicate" data-swiper-slide-index="2">
+            <div class="content-wrapper">
+                <div class="cover" style="background-image:url(../../../assets/images/slider/slide1.jpg)"></div>
+                <div class="content">
+                    <a class="link" href="/"></a>
+                    <div class="content-inner">
+                        <h2>Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience</h2>
+                        <div class="meta">4 days ago - 6 comments</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide carousel-item double swiper-slide-active" data-swiper-slide-index="7">
+            <div class="content-wrapper">
+                <div class="cover" style="background-image:url(../../../assets/images/slider/slide2.jpg)"></div>
+                <div class="content">
+                    <a class="link" href="/"></a>
+                    <div class="content-inner">
+                        <h2>Why You Should Watch: Master in the House</h2>
+                        <div class="meta">12 days ago - 30 comments</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="cover" style="background-image:url(../../../assets/images/slider/slide1.gif)"></div>
+                <div class="content">
+                    <a class="link" href="/"></a>
+                    <div class="content-inner">
+                        <h2>[Video] Top 15 Highest Rated Korean Dramas of 2019</h2>
+                        <div class="meta">13 days ago - 30 comments</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div> -->

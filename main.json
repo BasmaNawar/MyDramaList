@@ -1,0 +1,36 @@
+{
+    "error": "TheErrorData",
+    "body": "helloworld",
+    "data": [
+        {
+            "id": 0,
+            "background": "../../../assets/images/slider/1.jpg",
+            "title": "Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience",
+            "info": "4 days ago - 6 comments"
+        },
+        {
+            "id": 1,
+            "background": "../../../assets/images/slider/2.jpg",
+            "title": "Why You Should Watch: Master in the House",
+            "info": "12 days ago - 30 comments"
+        },
+        {
+            "id": 2,
+            "background": "../../../assets/images/slider/1.gif",
+            "title": "[Video] Top 15 Highest Rated Korean Dramas of 2019",
+            "info": "13 days ago - 30 comments"
+        },
+        {
+            "id": 3,
+            "background": "../../../assets/images/slider/3.jpg",
+            "title": "Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience",
+            "info": "4 days ago - 6 comments"
+        },
+        {
+            "id": 4,
+            "background": "../../../assets/images/slider/4.jpg",
+            "title": "Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience",
+            "info": "4 days ago - 6 comments"
+        }
+    ]
+}

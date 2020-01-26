@@ -1,0 +1,27 @@
+.page-header .bg-primary {
+    background-color: #00619D !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.search-inp {
+    background-color: rgba(255, 255, 255, .1);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.search-icon {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+span button {
+    background-color: rgba(255, 255, 255, .1);
+    padding: 2px 6px;
+    border-left: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.lang-ddown button {
+    font-size: 14px;
+    padding: 4px 10px;
+}
