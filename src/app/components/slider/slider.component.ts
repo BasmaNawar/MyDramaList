@@ -42,15 +42,15 @@ export class SliderComponent implements OnInit {
     { image: '/assets/images/slider/slide4.jpg', title: 'Drama Spotlight: Boku dake ga Inai Machi', info: '2 hours ago - 1 comment' },
     { image: '/assets/images/slider/slide5.jpg', title: 'Me VS My Anti-Horror Friends', info: '1 day ago - 52 comments' },
     { image: '/assets/images/slider/slide1.jpg', title: '43rd Japan Academy Awards for Excellence', info: '2 days ago - 14 comments' },
-    { image: '/assets/images/slider/slide3.jpg', title: 'Location7' },
-    { image: '/assets/images/slider/slide4.jpg', title: 'Location8' },
-    { image: '/assets/images/slider/slide5.jpg', title: 'Location9' },
-    { image: '/assets/images/slider/slide1.jpg', title: 'Location10' },
-    { image: '/assets/images/slider/slide1.jpg', title: 'Location11' },
-    { image: '/assets/images/slider/slide3.jpg', title: 'Location12' },
-    { image: '/assets/images/slider/slide4.jpg', title: 'Location13' },
-    { image: '/assets/images/slider/slide5.jpg', title: 'Location14' },
-    { image: '/assets/images/slider/slide1.jpg', title: 'Location15' }
+    { image: '/assets/images/slider/slide3.jpg',  title: 'Why You Should Watch: Master in the House', info: '12 days ago - 30 comments' },
+    { image: '/assets/images/slider/slide4.jpg', title: '[Video] Top 15 Highest Rated Korean Dramas of 2019', info: '13 days ago - 30 comments' },
+    { image: '/assets/images/slider/slide5.jpg', title: 'Drama Spotlight: Boku dake ga Inai Machi', info: '2 hours ago - 1 comment' },
+    { image: '/assets/images/slider/slide1.jpg', title: '43rd Japan Academy Awards for Excellence', info: '2 days ago - 14 comments' },
+    { image: '/assets/images/slider/slide1.jpg', title: '[Video] Top 15 Highest Rated Korean Dramas of 2019', info: '13 days ago - 30 comments' },
+    { image: '/assets/images/slider/slide3.jpg', title: 'Me VS My Anti-Horror Friends', info: '1 day ago - 52 comments' },
+    { image: '/assets/images/slider/slide4.jpg', title: '43rd Japan Academy Awards for Excellence', info: '2 days ago - 14 comments' },
+    { image: '/assets/images/slider/slide5.jpg', title: 'Kingdom – Key Pillars of Wisdom the Movie Teaches the Audience', info: '4 days ago - 6 comments' },
+    { image: '/assets/images/slider/slide1.jpg', title: '[Video] Top 15 Highest Rated Korean Dramas of 2019', info: '13 days ago - 30 comments' }
   ];
 
 }

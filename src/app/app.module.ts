@@ -24,6 +24,7 @@ import { VotinglistsComponent } from './components/votinglists/votinglists.compo
 import { AiringshowsComponent } from './components/airingshows/airingshows.component';
 import { UpcomingshowsComponent } from './components/upcomingshows/upcomingshows.component';
 import { RecentdiscussComponent } from './components/recentdiscuss/recentdiscuss.component';
+import { LeftsidebarComponent } from './components/leftsidebar/leftsidebar.component';
 
 
 
@@ -43,7 +44,8 @@ import { RecentdiscussComponent } from './components/recentdiscuss/recentdiscuss
     VotinglistsComponent,
     AiringshowsComponent,
     UpcomingshowsComponent,
-    RecentdiscussComponent
+    RecentdiscussComponent,
+    LeftsidebarComponent
   ],
   imports: [
     CommonModule,
