@@ -25,6 +25,12 @@ import { AiringshowsComponent } from './components/airingshows/airingshows.compo
 import { UpcomingshowsComponent } from './components/upcomingshows/upcomingshows.component';
 import { RecentdiscussComponent } from './components/recentdiscuss/recentdiscuss.component';
 import { LeftsidebarComponent } from './components/leftsidebar/leftsidebar.component';
+import { TrailerComponent } from './views/trailer/trailer.component';
+import { DetailsComponent } from './views/details/details.component';
+import { LeftsidedataComponent } from './components/leftsidedata/leftsidedata.component';
+import { EpisodeguideComponent } from './views/episodeguide/episodeguide.component';
+import { CastComponent } from './views/cast/cast.component';
+import { ReviewsComponent } from './views/reviews/reviews.component';
 
 
 
@@ -45,7 +51,13 @@ import { LeftsidebarComponent } from './components/leftsidebar/leftsidebar.compo
     AiringshowsComponent,
     UpcomingshowsComponent,
     RecentdiscussComponent,
-    LeftsidebarComponent
+    LeftsidebarComponent,
+    TrailerComponent,
+    DetailsComponent,
+    LeftsidedataComponent,
+    EpisodeguideComponent,
+    CastComponent,
+    ReviewsComponent
   ],
   imports: [
     CommonModule,
@@ -68,13 +80,28 @@ import { LeftsidebarComponent } from './components/leftsidebar/leftsidebar.compo
       {
         path: '',
         component: HomeComponent
+      },
+
+      {
+        path: 'trailer',
+        component: TrailerComponent
+      },
+      {
+        path: 'details',
+        component: DetailsComponent
+      },
+      {
+        path: 'episodes',
+        component: EpisodeguideComponent
+      },
+      {
+        path: 'cast',
+        component: CastComponent
+      },
+      {
+        path: 'reviews',
+        component: ReviewsComponent
       }
-
-      // {
-      //   path: '',
-      // component:ContentareaComponent
-      // }
-
 
     ])
   ],
